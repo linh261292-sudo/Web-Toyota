@@ -94,6 +94,7 @@ nav.main-nav>a:hover, nav.main-nav>div:hover>button{background:var(--paper);colo
 .chip-nav a:hover{background:var(--green);border-color:var(--green);color:var(--navy);}
 .hero-agent{display:flex;align-items:center;gap:14px;margin-top:30px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.3);backdrop-filter:blur(8px);border-radius:16px;padding:12px 18px;max-width:380px;}
 .hero-agent img{width:62px;height:62px;border-radius:50%;object-fit:cover;object-position:top;border:2px solid rgba(255,255,255,.7);flex-shrink:0;box-shadow:0 6px 16px rgba(0,0,0,.25);}
+.hero-agent .avatar{width:62px;height:62px;border-radius:50%;background:linear-gradient(135deg,var(--blue),var(--green));display:flex;align-items:center;justify-content:center;font-family:var(--font-display);font-weight:800;color:#fff;font-size:18px;flex-shrink:0;border:2px solid rgba(255,255,255,.7);box-shadow:0 6px 16px rgba(0,0,0,.25);}
 .hero-agent .info b{display:block;color:#fff;font-family:var(--font-display);font-size:14.5px;}
 .hero-agent .info span{display:block;color:#dfeaf3;font-size:11.5px;margin-top:1px;}
 .hero-agent .info a{color:var(--green);font-weight:700;font-size:13px;display:inline-block;margin-top:3px;}
@@ -220,7 +221,13 @@ footer.site-footer{background:var(--navy-2);color:#c7d7e6;padding:50px 0 20px;}
 <header class="site-header" id="siteHeader">
   <div class="header-inner">
     <a href="#top" class="brand">
-      <div class="mark">TN</div>
+      <div class="mark" style="background:#fff;padding:5px;">
+        <svg viewBox="0 0 100 60" width="32" height="19" aria-label="Toyota">
+          <ellipse cx="50" cy="30" rx="46" ry="26" fill="none" stroke="#EB0A1E" stroke-width="7"/>
+          <ellipse cx="50" cy="20" rx="15" ry="24" fill="none" stroke="#EB0A1E" stroke-width="7"/>
+          <ellipse cx="50" cy="38" rx="28" ry="9" fill="none" stroke="#EB0A1E" stroke-width="7"/>
+        </svg>
+      </div>
       <div class="txt">TOYOTA NINH KIỀU<small>Cần Thơ</small></div>
     </a>
     <nav class="main-nav">
@@ -256,9 +263,9 @@ footer.site-footer{background:var(--navy-2);color:#c7d7e6;padding:50px 0 20px;}
       <a href="#dich-vu">Dịch vụ</a>
     </nav>
     <div class="header-cta">
-      <a href="tel:0949484535" class="phone-badge">
+      <a href="tel:0914022344" class="phone-badge">
         <svg viewBox="0 0 24 24"><path d="M6.6 10.8c1.4 2.8 3.8 5.2 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1z"/></svg>
-        <span>TVBH Tố Anh: 0949.484.535</span>
+        <span>TVBH Lê Trí Linh: 0914.022.344</span>
       </a>
       <button id="menuToggle" aria-label="Menu">☰</button>
     </div>
@@ -287,7 +294,7 @@ footer.site-footer{background:var(--navy-2);color:#c7d7e6;padding:50px 0 20px;}
     <p class="lead reveal">Giá xe lăn bánh minh bạch, khuyến mãi hấp dẫn, trả góp lãi suất tốt, giao xe nhanh và chế độ hậu mãi chuẩn Toyota Việt Nam cho toàn bộ dòng xe Vios, Wigo, Veloz, Avanza, Raize, Fortuner, Innova Cross, Corolla Cross, Altis, Camry, Yaris Cross &amp; Hilux.</p>
     <div class="btn-row reveal">
       <a href="#bao-gia" class="btn btn-primary">Nhận báo giá ưu đãi</a>
-      <a href="tel:0949484535" class="btn btn-ghost">Gọi hotline 0949.484.535</a>
+      <a href="tel:0914022344" class="btn btn-ghost">Gọi hotline 0914.022.344</a>
     </div>
     <div class="chip-nav reveal">
       <a href="#bang-gia">Sedan</a>
@@ -295,6 +302,14 @@ footer.site-footer{background:var(--navy-2);color:#c7d7e6;padding:50px 0 20px;}
       <a href="#bang-gia">Đa dụng</a>
       <a href="#bang-gia">SUV</a>
       <a href="#bang-gia">Bán tải</a>
+    </div>
+    <div class="hero-agent reveal">
+      <div class="avatar">LTL</div>
+      <div class="info">
+        <b>Lê Trí Linh</b>
+        <span>Chuyên viên tư vấn bán hàng</span>
+        <a href="tel:0914022344">Gọi ngay: 0914.022.344</a>
+      </div>
     </div>
   </div>
 </section>
@@ -742,10 +757,10 @@ footer.site-footer{background:var(--navy-2);color:#c7d7e6;padding:50px 0 20px;}
   <div class="container">
     <div class="footer-grid">
       <div class="rep-card">
-        <div class="avatar">TA</div>
+        <div class="avatar">LTL</div>
         <div>
-          <b>Phạm Huỳnh Tố Anh</b>
-          <span>Chuyên viên tư vấn — Hotline: 0949.484.535</span>
+          <b>Lê Trí Linh</b>
+          <span>Chuyên viên tư vấn — Hotline: 0914.022.344</span>
         </div>
       </div>
       <div class="footer-info" id="gioi-thieu">
@@ -767,8 +782,8 @@ footer.site-footer{background:var(--navy-2);color:#c7d7e6;padding:50px 0 20px;}
 
 <div class="floating-actions">
   <a href="#top" class="fab top" id="backToTop" aria-label="Lên đầu trang">↑</a>
-  <a href="https://zalo.me/0949484535" target="_blank" rel="noopener" class="fab zalo" aria-label="Chat Zalo">Z</a>
-  <a href="tel:0949484535" class="fab call" aria-label="Gọi hotline">☎</a>
+  <a href="https://zalo.me/0914022344" target="_blank" rel="noopener" class="fab zalo" aria-label="Chat Zalo">Z</a>
+  <a href="tel:0914022344" class="fab call" aria-label="Gọi hotline">☎</a>
 </div>
 
 <script>
@@ -810,7 +825,7 @@ document.getElementById('leadForm').addEventListener('submit', function(e){
     'Ghi chú: ' + note
   );
   window.location.href = 'mailto:phamhuynhtoanh@toyotacanthoninhkieu.vn?subject=' + subject + '&body=' + body;
-  document.getElementById('formMsg').textContent = 'Đã mở ứng dụng email — vui lòng bấm Gửi để hoàn tất, hoặc gọi trực tiếp hotline 0949.484.535.';
+  document.getElementById('formMsg').textContent = 'Đã mở ứng dụng email — vui lòng bấm Gửi để hoàn tất, hoặc gọi trực tiếp hotline 0914.022.344.';
 });
 </script>
 </body>
